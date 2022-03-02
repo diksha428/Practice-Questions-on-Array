@@ -77,10 +77,10 @@ static private int secondSmallest(int[] arr, int n)
 	{
 		return -1;
 	}
-	int small = Integer.MAX_VALUE;
-	int second_small = Integer.MAX_VALUE;
-	int i;
-	for (i = 0; i < n; i++)
+	 int small = Integer.MAX_VALUE;
+	 int second_small = Integer.MAX_VALUE;
+	 int i;
+	 for (i = 0; i < n; i++)
 	{
 	   if (arr[i] < small)
 	   {
@@ -115,4 +115,5 @@ static private int secondLargest(int[] arr, int n)
 		}
 	}
 	return second_large;
+
 }
